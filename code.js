@@ -10,6 +10,7 @@ var attendButton = document.getElementById("attendBtn");
 // 001부터 999까지 입력
 for (let i = 1; i <= 999; i++) {
   var formattedValue = padNumber(i); // 3자리로 포맷팅
+  //formattedValue=i.padStart(3,'0'); 으로 시도해보기
 
   if (pinInput) {
     pinInput.value = formattedValue; // 필드에 값 설정
